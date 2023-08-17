@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap exercício</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <!-- meu css -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- icons - BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+    <header>
+        <nav class="nav-heading navbar navbar-expand-xl z-1 position-fixed bg-white shadow w-100 top-0">
+            <div class="container-btn container p-2">
+                <a class="navbar-brand logo-menu fw-bold" href="#">
+                <i class="fa-solid fa-dumbbell pe-2"></i>Exercício bootstrap bill turner</a>
+                <button class="navbar-toggler px-3 py-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <a href="#" class="text-dark fs-5">menu</a>
+                    <i class="bi bi-text-right"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto d-flex align-items-center gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dowload</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary rounded-5 px-5 py-1" href="#"><i class="bi bi-chat-text-fill pe-2"></i>Fazer Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <!-- container img-celular -->
+        <div class="bg-light">
+            <article class="container-cellphone container row d-flex align-items-center mx-auto p-4">
+                <section class="container-cellphone_text col-md-6 mt-5 mb-2">
+                    <h1 class="display-2 mb-4 fw-bold">
+                        Lorem ipsum Dolor
+                    </h1>
+                    <p class="lead text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum itaque reiciendis officia exercitationem explicabo nostrum quas temporibus alias commodi neque.
+                    </p>
+                    <div class="container-cellphone_image d-flex gap-2">
+                        <figure>
+                            <img src="./assets/img/app-store-badge.svg" alt="">
+                        </figure>
+                        <figure class="">
+                            <img src="./assets/img/google-play-badge.svg" alt="">
+                        </figure>
+                    </div>
+              </section>
+                <figure class="col-md-6 mt-5">
+                    <img src="./assets/img/phone-amico.svg" alt="imagem de um celular" class="img-fluid img-animate">
+                </figure>
+            </article>
+    
+        </div>
+
+       
+        <!-- container azul -->
+
+        <article class="bg-primary text-center">
+            <h2 class="m-auto text-light fs-1 p-5 w-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugit neque, quisquam quis provident soluta?
+            </h2>
+        </article>
+
+
+        <!-- container wrap -->
+        <article class="container-wrap container d-flex align-items-center row my-5 mx-auto">
+            <figure class="col-md-6">
+                <img src="./assets/img/phone-amico.svg" alt="imagem de um celular" class="img-fluid img-animate">
+            </figure>
+            <section class="container-wrap_sections d-flex flex-wrap align-items-center col-md-6 g-col-3">
+                <div class="text-center w-50">
+                    <i class="bi bi-phone fs-1 icon-gradient-color"></i>
+                    <h2 class="my-2">
+                        Lorem Ipsum
+                    </h2>
+                    <p  class="text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quibusdam excepturi.
+                    </p>
+                </div> 
+                <div class="text-center w-50">
+                    <i class="bi bi-camera fs-1 icon-gradient-color"></i>
+                    <h2 class="my-2">
+                        Lorem Ipsum
+                    </h2>
+                    <p  class="text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quibusdam excepturi.
+                    </p>
+                </div> 
+                <div class="text-center w-50">
+                    <i class="bi bi-gift fs-1 icon-gradient-color"></i>
+                    <h2 class="my-2">
+                        Lorem Ipsum
+                    </h2>
+                    <p class="text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quibusdam excepturi.
+                    </p>
+                </div> 
+                <div class="text-center w-50">
+                    <i class="bi bi-patch-check fs-1 icon-gradient-color"></i>
+                    <h2 class="my-2">
+                        Lorem Ipsum
+                    </h2>
+                    <p  class="text-secondary">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, quibusdam excepturi.
+                    </p>
+                </div> 
+            </section>
+        </article>
+
+
+        <div class="bg-light">
+            <article class="container-img-neon container d-flex flex-wrap align-items-center my-3 justify-content-between  p-4">
+                <section class="container-img-neon_text col-md-6">
+                    <h2 class="display-3 fw-bold">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h2>
+                    <p class="text-secondary">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, inventore soluta asperiores voluptatibus aperiam omnis nesciunt culpa excepturi ducimus possimus nisi at ab totam corrupti.
+                    </p>
+                </section>
+                <figure class="col-md-5">
+                    <img src="./assets/img/pexels-kelly-3119955.jpg" alt="imagem de uma moto neon" class="img-fluid rounded-2">
+                </figure>
+            </article>
+    
+            <!-- cellphone img container -->
+            <article class="bg-cellphone d-flex align-items-center justify-content-start">
+                <section class="container">
+                    <h2 class="text-light display-3 fw-bold w-50">
+                        Lorem ipsum dolor sit.
+                    </h2>
+                    <a href="#" class="btn btn-outline-light rounded-5 px-4 py-3">Fazer Dowload</a>
+                </section>
+            </article>
+        </div>
+      
+
+        <article class="bg-primary">
+            <section class="container d-flex align-items-center p-5 col-md-5 flex-column">
+                <h2 class="text-light">
+                    Get the app now
+                </h2>
+                <div class="container-footer_imgs d-flex gap-2">
+                    <figure>
+                        <img src="./assets/img/app-store-badge.svg" alt="">
+                    </figure>
+                    <figure class="">
+                        <img src="./assets/img/google-play-badge.svg" alt="">
+                    </figure>
+                </div>
+            </section>
+
+        </article>
+    </main>
+    <footer class="bg-dark p-5 d-flex align-items-center">
+        <section class="mx-auto">
+            <p class="text-light">&copy;Exercício 01 - Bootstrap</p>
+            <ul class="d-flex gap-2">
+                <li><a href="#"  class="text-light">Link -</a></li>
+                <li><a href="#" class="text-light">Link</a></li>
+                <li><a href="#" class="text-light">- Link </a></li>
+            </ul>
+        </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
